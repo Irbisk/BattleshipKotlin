@@ -1,0 +1,20 @@
+<h2>System of bonuses</h2>
+<div class="step-text">
+<p></p>
+<p>Our new customer asked us to write a system of bonuses for his store customers with the possibility of using various bonus-calculation strategies.</p>
+<p>To implement the project, we've created:<br/>
+1. The <code class="java">BonusCalculator</code> interface, which contains the following function:</p>
+<ul>
+<li><code class="java">calculateBonus(spend: Double): Double</code> – it calculates the number of bonus points awarded depending on the amount spent.</li>
+</ul>
+<p>2. Two classes that implement the <code class="java">BonusCalculator</code> interface:</p>
+<ul>
+<li><code class="java">FlatRateBonusCalculator</code> – it gives a fixed number of bonus points for every $100 spent.</li>
+<li><code class="java">PercentageBonusCalculator</code> – it gives bonus points as a percentage of the amount spent.</li>
+</ul>
+<p> </p>
+<p>You need to create the <code class="java">Customer</code> class, which uses class delegation to calculate bonuses using <code class="java">BonusCalculator</code>.</p><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+</div>
+<b>Caution</b><br><br>
+You may see errors in your code or execution results due to missing context. Don’t worry about it, just write the solution and press Check.
+<br><br>

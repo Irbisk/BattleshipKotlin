@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: It allows a class or an object to use the functionality of provided interface
+    implementation.
+- text: It makes hard-to-read code even harder to read.
+- text: "It allows to implement certain interfaces inside other classes, using their\
+    \ local scope."
+- text: "It functions as a link from one class to another, without necessarily copying\
+    \ code from the linked class."
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/21407#comment
+status: Solved
+record: -1
+custom_name: And... what is the delegate used to do?
+local_check: false
